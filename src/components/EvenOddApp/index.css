@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.count-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  font-family: 'Roboto';
+  border-radius: 15px;
+}
+
+.count-heading {
+  color: #0f172a;
+  font-size: 30px;
+}
+
+.count-type {
+  color: #334155;
+  font-size: 20px;
+}
+
+.button {
+  color: #1e293b;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+
+.note {
+  color: #334155;
+  font-size: 10px;
+}
